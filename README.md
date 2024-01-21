@@ -4,6 +4,9 @@ We proposed a representation augmentation method to improve the model performanc
 https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_FRAug_Tackling_Federated_Learning_with_Non-IID_Features_via_Representation_Augmentation_ICCV_2023_paper.pdf)
 
 ![Method](/assets/FRAug.png)
+
+---
+
 ### Setup
 See the requirements.txt for environment configuration.
 ```
@@ -29,6 +32,8 @@ python main.py --dataset=$DATASET$ --dataset_dir=$PATH_TO_DATASETS$ --log_dir=$P
 ```
 python eval.py --dataset=$DATASET$ --model_dir=$PATH_TO_MODEL$ --dataset_dir=$PATH_TO_DATASETS$
 ```
+
+---
 
 ### Citation
 ```bibtex
